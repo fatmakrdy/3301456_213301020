@@ -1,3 +1,4 @@
+import 'package:fitness/pages/haber_page.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
 import 'home_screen.dart';
@@ -13,6 +14,7 @@ class _HomePageState extends State<HomePage> {
   int selectedIndex=0;
   List pages=[
     HomeScreen(),
+    HaberPage(),
   ];
   @override
   Widget build(BuildContext context) {
